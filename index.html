@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AngularJS 2 - Quick Demo</title>
+
+	<link rel="stylesheet" href="bower_components/foundation/css/normalize.min.css">
+	<link rel="stylesheet" href="bower_components/foundation/css/foundation.min.css">
+	
+	<!-- Traceur runtime (ES6) -->
+	<script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
+    <!-- ES6 module loading -->
+    <script src="https://jspm.io/system@0.16.js"></script>
+    <!-- AngularJS 2 alpha -->
+    <script src="https://code.angularjs.org/2.0.0-alpha.22/angular2.dev.js"></script>
+
+</head>
+<body>
+	
+	<div class="row">
+		<!-- Il mio tag -->
+		<salutatore></salutatore>
+	</div>
+	
+	<!-- Importo il file JS come modulo -->
+	<script>System.import('app');</script>
+</body>
+</html>
