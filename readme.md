@@ -5,7 +5,7 @@ E' necessario avere installato **NodeJS**
 Moduli necessari:
 - **Typescript:** npm install -g typescript
 - **Definizioni Typescript:** npm install -g tsd
-- **Local server:** npm install http-server -g (* va bene uno qualunque, questo è segnalato per comodità*)
+- **Local server:** npm install http-server -g (*va bene uno qualunque, questo è segnalato per comodità*)
 
 Per compilare il file .ts in tempo reale 
 	
